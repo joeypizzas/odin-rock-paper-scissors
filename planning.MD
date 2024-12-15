@@ -23,7 +23,7 @@
     - If both players enter rock, tell them it's a draw and increment neither's score. 
     - If both players enter paper, tell them it's a draw and increment neither's score. 
     - If both players enter scissors, tell them it's a draw and increment neither's score. 
-4. Repeat step 3 four more times. 
+4. Repeat step 4 four more times with new choices from both computer and human.
 5. Declare a winner. 
     - If the human's score >= 3, then declare them the winner. 
     - else, declare the computer the winner. 
