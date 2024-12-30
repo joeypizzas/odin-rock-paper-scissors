@@ -3,7 +3,7 @@
 #application {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 #title {
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-#results {
+#roundResults {
     display: flex;
     justify-content: center;
 }
