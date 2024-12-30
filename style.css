@@ -3,10 +3,20 @@
 #application {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 #title {
+    display: flex;
+    justify-content: center;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+}
+
+#results {
     display: flex;
     justify-content: center;
 }

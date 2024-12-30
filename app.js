@@ -17,14 +17,20 @@ function getComputerChoice() {
     return randomChoice();
 }
 
-function getHumanChoice() {
-    const humanChoice = prompt("Please enter: rock, paper, or scissors.");
-    return humanChoice;
-}
+// function getHumanChoice() {
+//     const humanChoice = prompt("Please enter: rock, paper, or scissors.");
+//     return humanChoice;
+// }
 
 function playGame() {
     let humanScore = 0;
     let computerScore = 0;
+
+    const score = document.querySelector("#score");
+    score.textContent = `Score: Human ${humanScore} - Computer ${computerScore}`;
+
+    const results = document.querySelector("#results");
+    results.textContent = `Round results: Each round's results will appear here once you begin to play!`;
 
     for (let i = 1; i < 6; i++) {
         function playRound(computerChoice, humanChoice) {
