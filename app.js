@@ -88,7 +88,7 @@ function playGame() {
             roundResults.textContent = `Draw! Please play again.`;
             score.textContent = `Score: Human ${humanScore} - Computer ${computerScore}`;
         }
-        else (computerChoice === "scissors" && humanChoice === "scissors") {
+        else if (computerChoice === "scissors" && humanChoice === "scissors") {
             roundResults.textContent = `Draw! Please play again.`;
             score.textContent = `Score: Human ${humanScore} - Computer ${computerScore}`;
         }
